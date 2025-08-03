@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin-top: 40px;
+  font-size: 2em;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 50px auto;
+  max-width: 300px;
+}
+.btn {
+  padding: 15px;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background-color: #34495e;
+}
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #00000080;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.gestion { background: url('../images/background-gestion.jpg') no-repeat center center / cover; min-height: 100vh; }
+.science { background: url('../images/background-science.jpg') no-repeat center center / cover; min-height: 100vh; }
+.maths { background: url('../images/background-maths.jpg') no-repeat center center / cover; min-height: 100vh; }
+.technique { background: url('../images/background-technique.jpg') no-repeat center center / cover; min-height: 100vh; }
+.lettres { background: url('../images/background-lettres.jpg') no-repeat center center / cover; min-height: 100vh; }
+.home { background: linear-gradient(135deg, #1e3c72, #2a5298); min-height: 100vh; padding-top: 50px; }
+
+.toc {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.toc li a {
+  background: #ffffff40;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  background-color: #00000060;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  text-align: right;
+}
+.pdf-button {
+  display: inline-block;
+  margin-top: 10px;
+  background: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+table th {
+  background-color: #2980b9;
+  color: white;
+}
